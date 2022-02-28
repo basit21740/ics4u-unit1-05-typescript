@@ -21,11 +21,11 @@ function findBoardFoot(length: number, width: number) {
 }
 try {
   // Input for the length of the board
-  const lengthInput = prompt("Enter the length of the board: ")
+  const lengthInput = prompt("Enter the width of the board: ")
   console.log()
 
   // Input for the width of the board
-  const widthInput = prompt("Enter the width of the board: ")
+  const widthInput = prompt("Enter the height  of the board: ")
   console.log()
 
   // Ensuring the length and width variables are numbers
@@ -39,7 +39,7 @@ try {
   } else {
     const heightOfBoard = findBoardFoot(userLength, userWidth)
     // Output if no errors detected
-    console.log("The height of the board in one board-foot is", 
+    console.log("The wood should be", 
                 heightOfBoard, "inches.")
   }
 
